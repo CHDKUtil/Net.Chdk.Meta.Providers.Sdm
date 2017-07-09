@@ -55,17 +55,12 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SdmCameraMetaProvider.cs" />
-    <Compile Include="SdmProductMetaProvider.cs" />
     <Compile Include="ServiceCollectionExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Net.Chdk.Meta.Providers.Core\src\Net.Chdk.Meta.Providers.Core\Net.Chdk.Meta.Providers.Core.csproj">
       <Project>{a336d62c-4caf-4b19-9602-8ce0e51b4eb4}</Project>
       <Name>Net.Chdk.Meta.Providers.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Net.Chdk.Model.Software\src\Net.Chdk.Model.Software\Net.Chdk.Model.Software.csproj">
-      <Project>{7F492AD5-C9E5-4E13-9587-D0B88BA8D209}</Project>
-      <Name>Net.Chdk.Model.Software</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
