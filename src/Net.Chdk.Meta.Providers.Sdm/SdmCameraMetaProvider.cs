@@ -2,7 +2,7 @@
 
 namespace Net.Chdk.Meta.Providers.Sdm
 {
-    sealed class SdmCameraMetaProvider : ICameraMetaProvider
+    sealed class SdmCameraMetaProvider : IProductCameraMetaProvider
     {
         public CameraInfo GetCamera(string name)
         {
@@ -13,5 +13,7 @@ namespace Net.Chdk.Meta.Providers.Sdm
                 Revision = split[3]
             };
         }
+
+        public string ProductName => "SDM";
     }
 }
