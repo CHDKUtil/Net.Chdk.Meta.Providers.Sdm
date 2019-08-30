@@ -7,7 +7,8 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Version>0.3.0</Version>
+    <Version>0.3.1</Version>
+    <VersionSuffix>alpha</VersionSuffix>
     <Product>CHIMP</Product>
     <Authors>Dmitry Shechtman</Authors>
     <Copyright>Copyright © 2017 Dmitry Shechtman</Copyright>
@@ -16,9 +17,9 @@
   <PropertyGroup>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Net.Chdk.Meta.Providers.Sdm</Title>
-    <PackageVersion>$(Version)-alpha</PackageVersion>
+    <PackageVersion>$(Version)-$(VersionSuffix)</PackageVersion>
+    <PackageLicenseExpression>GPL-2.0-or-later</PackageLicenseExpression>
     <PackageIconUrl>https://raw.githubusercontent.com/CHDKUtil/CHIMP/master/tiny.png</PackageIconUrl>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/CHDKUtil/Net.Chdk.Meta.Providers.Sdm/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/CHDKUtil/Net.Chdk.Meta.Providers.Sdm</PackageProjectUrl>
     <RepositoryUrl>https://github.com/CHDKUtil/Net.Chdk.Meta.Providers.Sdm</RepositoryUrl>
     <PackageTags>chimp meta provider sdm</PackageTags>
